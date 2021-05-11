@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24F164D264A8303005E81A4 /* DogeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24F164C264A8303005E81A4 /* DogeTableViewCell.swift */; };
 		C2EC9EA82649C50A00035913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC9EA72649C50A00035913 /* AppDelegate.swift */; };
 		C2EC9EAA2649C50A00035913 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC9EA92649C50A00035913 /* SceneDelegate.swift */; };
 		C2EC9EAC2649C50A00035913 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC9EAB2649C50A00035913 /* ViewController.swift */; };
 		C2EC9EAF2649C50A00035913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EC9EAD2649C50A00035913 /* Main.storyboard */; };
 		C2EC9EB12649C50B00035913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2EC9EB02649C50B00035913 /* Assets.xcassets */; };
 		C2EC9EB42649C50B00035913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2EC9EB22649C50B00035913 /* LaunchScreen.storyboard */; };
+		C2EC9EBC2649C75D00035913 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC9EBB2649C75D00035913 /* APICaller.swift */; };
+		C2EC9EBE2649D6D000035913 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EC9EBD2649D6D000035913 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C24F164C264A8303005E81A4 /* DogeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeTableViewCell.swift; sourceTree = "<group>"; };
 		C2EC9EA42649C50A00035913 /* DogeCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogeCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2EC9EA72649C50A00035913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2EC9EA92649C50A00035913 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		C2EC9EB02649C50B00035913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2EC9EB32649C50B00035913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2EC9EB52649C50B00035913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EC9EBB2649C75D00035913 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		C2EC9EBD2649D6D000035913 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C2EC9EA72649C50A00035913 /* AppDelegate.swift */,
 				C2EC9EA92649C50A00035913 /* SceneDelegate.swift */,
 				C2EC9EAB2649C50A00035913 /* ViewController.swift */,
+				C2EC9EBB2649C75D00035913 /* APICaller.swift */,
+				C2EC9EBD2649D6D000035913 /* Models.swift */,
+				C24F164C264A8303005E81A4 /* DogeTableViewCell.swift */,
 				C2EC9EAD2649C50A00035913 /* Main.storyboard */,
 				C2EC9EB02649C50B00035913 /* Assets.xcassets */,
 				C2EC9EB22649C50B00035913 /* LaunchScreen.storyboard */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24F164D264A8303005E81A4 /* DogeTableViewCell.swift in Sources */,
 				C2EC9EAC2649C50A00035913 /* ViewController.swift in Sources */,
 				C2EC9EA82649C50A00035913 /* AppDelegate.swift in Sources */,
 				C2EC9EAA2649C50A00035913 /* SceneDelegate.swift in Sources */,
+				C2EC9EBC2649C75D00035913 /* APICaller.swift in Sources */,
+				C2EC9EBE2649D6D000035913 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
